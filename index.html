@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0911">
+  <meta name="description" content="Conoce El Juego del Tiburón, el juego de combate multijugador de Estudio El Acuario. Descubre la arena, sus cuatro concursantes y el tráiler.">
+  <meta property="og:title" content="El Juego del Tiburón | Estudio El Acuario">
+  <meta property="og:description" content="Al sonar la sirena, gana quien conserve la Marca. Combate en red local para 2 a 4 jugadores.">
+  <meta property="og:image" content="https://mrfrozone19.github.io/el-juego-del-tiburon/cartel.webp">
+  <title>El Juego del Tiburón | Estudio El Acuario</title>
+  <link rel="icon" href="logo.webp" type="image/webp">
+  <link rel="stylesheet" href="estudio.css">
+  <script src="estudio.js" defer></script>
+</head>
+<body>
+  <a href="#contenido" class="skip">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap top">
+      <a class="studio" href="#inicio" aria-label="Estudio El Acuario, inicio"><i class="fin" aria-hidden="true"></i><span>EL ACUARIO<small>ESTUDIO</small></span></a>
+      <nav aria-label="Navegación principal"><a href="#juego">El juego</a><a href="#concursantes">Concursantes</a><a href="#estudio">Estudio</a></nav>
+      <a class="watch small" data-video href="trailer.mp4"><i class="play" aria-hidden="true"></i>Ver tráiler</a>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="titulo">
+      <img class="keyart" src="cartel.webp" alt="" fetchpriority="high">
+      <div class="wrap hero-inner">
+        <div class="intro">
+          <p class="eyebrow magenta"><span class="bars" aria-hidden="true"></span> Estudio El Acuario presenta</p>
+          <h1 id="titulo"><img src="logo.webp" alt="El Juego del Tiburón" width="840" height="475"></h1>
+          <p class="lede">Toda la ciudad está mirando. Arrebata la Marca y consérvala hasta que suene la última sirena.</p>
+          <div class="actions"><a class="watch" data-video href="trailer.mp4"><i class="play" aria-hidden="true"></i>Ver tráiler</a><a class="explore" href="#juego">Explorar el juego</a></div>
+        </div>
+      </div>
+    </section>
+    <div class="specs"><div class="wrap specs-in"><span><b>Modalidad</b> PvP en red local</span><span><b>Jugadores</b> 2–4</span><span><b>Plataforma</b> PC</span><span><b>Motor</b> Unreal Engine</span></div></div>
+    <section class="wrap section arena" id="juego" aria-labelledby="juego-t">
+      <div class="brief">
+        <p class="eyebrow"><span class="bars" aria-hidden="true"></span> El juego</p>
+        <h2 id="juego-t">Bienvenidos a<br><em>El Acuario.</em></h2>
+        <p>En un futuro donde el combate se transmite como espectáculo, una arena se alza sobre la ciudad. Hasta cuatro concursantes recorren sus plataformas en busca de armas y de una sola Marca que todos pueden ver.</p>
+        <p>Un jugador crea la sala en la red local. Los demás la buscan, se unen y eligen a su concursante. Cuando todos han confirmado, se abre la arena.</p>
+      </div>
+      <div class="gallery">
+        <figure><img id="vista" src="arena.webp" alt="Vista elevada de las plataformas y las barreras luminosas de El Acuario" width="1050" height="591" loading="lazy"><figcaption id="pie" aria-live="polite">La arena elevada y su plataforma central.</figcaption></figure>
+        <div class="switches" aria-label="Elegir captura de la partida" hidden><button type="button" data-scene="arena" aria-pressed="true">La arena</button><button type="button" data-scene="portador" aria-pressed="false">La Marca</button><button type="button" data-scene="duelo" aria-pressed="false">El duelo</button></div>
+      </div>
+    </section>
+    <section class="rules"><div class="wrap split"><div><p class="eyebrow">Reglas de la arena</p><h2>El último segundo<br><em>lo decide todo.</em></h2></div><div><p>Un concursante recibe la Marca al azar. Un distintivo luminoso delata su posición y le concede 25 puntos adicionales de vida máxima. Si lo eliminas, la Marca pasa a tus manos.</p><p><strong>Al agotarse el reloj, gana quien lleve la Marca.</strong> Si el portador cae al vacío o abandona, la Marca queda libre. Si nadie la recupera antes de la sirena, gana quien haya acumulado más puntos de combate.</p></div></div></section>
+    <section class="wrap section roster" id="concursantes">
+      <p class="eyebrow"><span class="bars" aria-hidden="true"></span> Selección de personaje</p>
+      <h2>Los <em>concursantes.</em></h2><p>Cuatro siluetas, una elección por jugador. Al confirmar tu personaje, queda reservado para ti durante la partida.</p>
+      <div class="portraits">
+        <figure><img src="miku.webp" loading="lazy" width="400" height="494" alt="Miku, de cabello naranja y camiseta gris"><figcaption>Miku</figcaption></figure>
+        <figure><img src="shady.webp" loading="lazy" width="400" height="494" alt="Shady, de cabello claro y traje oscuro"><figcaption>Shady</figcaption></figure>
+        <figure><img src="mark.webp" loading="lazy" width="400" height="494" alt="Mark, con máscara y abrigo verde"><figcaption>Mark</figcaption></figure>
+        <figure><img src="eliott.webp" loading="lazy" width="400" height="494" alt="Eliott, de cabello rubio en punta y pantalón rojo"><figcaption>Eliott</figcaption></figure>
+      </div>
+    </section>
+    <section class="armory"><div class="wrap section"><p class="eyebrow"><span class="bars" aria-hidden="true"></span> Equipo de combate</p><h2>El <em>arsenal.</em></h2>
+      <div class="gear"><div><h3>Cardumen</h3><span>Rifle</span><p>Presiona al portador desde el otro lado de la arena con disparos que alcanzan a un rival en la línea de tiro.</p></div>
+      <div><h3>Mordida</h3><span>Escopeta</span><p>Cambia de arma al cerrar la distancia. Cada cartucho libera tres perdigones que pueden impactar al mismo rival.</p></div>
+      <div><h3>Botiquín</h3><span>Recuperación</span><p>Busca el corazón cuando estés herido. Recupera hasta 40 puntos de vida y vuelve a la pelea.</p></div>
+      <div><h3>Aleta Dorada</h3><span>Movilidad</span><p>Durante diez segundos corres más rápido y saltas más alto. Úsala para alcanzar al portador o escapar con la Marca.</p></div></div>
+    </div></section>
+    <section id="estudio" class="wrap section split credits">
+      <div><p class="eyebrow"><span class="bars" aria-hidden="true"></span> El estudio</p><h2>Somos<br><em>El Acuario.</em></h2><p>Somos cinco creadores detrás de <cite>El Juego del Tiburón</cite>. Diseñamos el escenario y sus concursantes, construimos las reglas de combate en Blueprints y probamos las partidas en red para que todos vean el mismo desenlace.</p></div>
+      <div><h3>Equipo de desarrollo</h3><ul class="team"><li>Nombre 1</li><li>Nombre 2</li><li>Nombre 3</li><li>Nombre 4</li><li>Nombre 5</li></ul></div>
+    </section>
+  </main>
+  <footer><div class="wrap footer"><span>© 2026 Estudio El Acuario</span><a href="#inicio">Volver al inicio</a></div></footer>
+  <dialog id="sala-video" aria-labelledby="video-t"><div class="modal-bar"><h2 id="video-t">Tráiler oficial</h2><button id="cerrar" type="button" autofocus>Cerrar <span aria-hidden="true">×</span></button></div><video controls playsinline preload="none" poster="ciudad.webp" aria-label="Tráiler de El Juego del Tiburón"><source src="trailer.mp4" type="video/mp4"><a href="trailer.mp4">Abrir el tráiler en MP4</a></video></dialog>
+</body></html>
